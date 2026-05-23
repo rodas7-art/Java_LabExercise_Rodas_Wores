@@ -18,7 +18,7 @@ public class Main extends Application {
 
         public void start(Stage primaryStage) {
                 TextArea notepadArea = new TextArea();
-                notepadArea.setPromptText("Type your notes shawty");
+                notepadArea.setPromptText("Type your notes here");
 
                 VBox.setVgrow(notepadArea, Priority.ALWAYS);
                 Button saveButton = new Button("save");
@@ -121,7 +121,7 @@ public class Main extends Application {
                 });
                 Scene scene = new Scene(layout, 800, 500);
 
-                primaryStage.setTitle("My bomb af Notepad");
+                primaryStage.setTitle("My Notepad");
                 primaryStage.setScene(scene);
                 primaryStage.show();
         }
